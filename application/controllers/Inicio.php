@@ -5,10 +5,11 @@ class Inicio extends CI_Controller {
         parent::__construct();
     }
     function index(){
+	$alert['state']="";
         $data['title']="Incio";
         $this->load->view('templates/header',$data);
         $this->load->view('inicio');
-        $this->load->view('templates/footer');
+        $this->load->view('templates/footer',$alert);
     }
 }
 ?>
