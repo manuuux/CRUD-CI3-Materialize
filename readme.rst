@@ -27,4 +27,14 @@ CRUD
 
 In this app you can create a User, read all users, update an existing user and delete.
 
+**********
+DBA Config
+**********
+
+database name: cigniter
+database table: usuarios
++ idUsuario: int AI
++ nickUsuario: varchar 50
++ emailUsuario: varchar 60
++ fonoUsuario: varchar 30
 
